@@ -1,9 +1,9 @@
-# NeoRec — Production-Style Multi-Stage Recommender
+# Deep Recommender System — Production-Style Multi-Stage Recommender
 
 > Portfolio-ready recommender system on MovieLens: multi-channel recall →
 > DeepFM/DIN ranking → MMR/rules re-ranking → FastAPI + Streamlit serving.
 
-[![CI](https://github.com/2u39u4/multi-stage-recommender/actions/workflows/ci.yaml/badge.svg)](https://github.com/2u39u4/multi-stage-recommender/actions/workflows/ci.yaml)
+[![CI](https://github.com/jyotirmya17/deep-recommender-system/actions/workflows/ci.yaml/badge.svg)](https://github.com/jyotirmya17/deep-recommender-system/actions/workflows/ci.yaml)
 [![Python](https://img.shields.io/badge/python-3.10-blue.svg)]()
 [![PyTorch](https://img.shields.io/badge/PyTorch-2.2-EE4C2C.svg)]()
 [![FAISS](https://img.shields.io/badge/FAISS-1.8-006699.svg)]()
@@ -11,7 +11,7 @@
 [![Docker](https://img.shields.io/badge/Docker-ready-2496ED.svg)]()
 [![License](https://img.shields.io/badge/license-MIT-green.svg)]()
 
-**Repository**: https://github.com/2u39u4/multi-stage-recommender  
+**Repository**: https://github.com/jyotirmya17/deep-recommender-system  
 **Status**: final portfolio release.
 
 ---
@@ -618,8 +618,8 @@ and figure
 ### 9.1 Local (uv / pip)
 
 ```bash
-git clone https://github.com/2u39u4/multi-stage-recommender.git
-cd multi-stage-recommender
+git clone https://github.com/jyotirmya17/deep-recommender-system.git
+cd deep-recommender-system
 uv venv && source .venv/bin/activate     # or: python -m venv .venv
 uv pip install -e ".[dev]"               # core + dev tooling
 
@@ -780,8 +780,8 @@ Possible future research directions, outside this finished version:
 
 ## 14. Author
 
-**Junye Zhao** — applying for MS in AI / ML, Fall 2027  
-GitHub: [2u39u4](https://github.com/2u39u4)
+**Jyotirmya Sharma**  
+GitHub: [jyotirmya17](https://github.com/jyotirmya17)
 
 > *Built end-to-end as a portfolio project to demonstrate proficiency across
 > the full recommender-system stack — from research-style modelling to

@@ -9,7 +9,7 @@ description = "Production-style multi-stage recommender system on MovieLens."
 readme = "README.md"
 requires-python = ">=3.10,<3.12"
 license = { text = "MIT" }
-authors = [{ name = "Junye Zhao" }]
+authors = [{ name = "Jyotirmya Sharma" }]
 keywords = [
     "recommender-system",
     "deep-learning",
@@ -76,8 +76,8 @@ tf = [
 neorec = "neorec.cli:app"
 
 [project.urls]
-Homepage = "https://github.com/2u39u4/multi-stage-recommender"
-Repository = "https://github.com/2u39u4/multi-stage-recommender"
+Homepage = "https://github.com/jyotirmya17/deep-recommender-system"
+Repository = "https://github.com/jyotirmya17/deep-recommender-system"
 
 [tool.hatch.build.targets.wheel]
 packages = ["src/neorec"]
